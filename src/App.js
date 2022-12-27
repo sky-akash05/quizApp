@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import QuizComp from './QuizComp.js/quizComp';
+
 
 function App() {
   return (
@@ -18,8 +20,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <QuizComp/>
     </div>
   );
 }
-
-export default App;
+ 
+export default QuizComp;
